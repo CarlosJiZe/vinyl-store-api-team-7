@@ -346,7 +346,7 @@ Implement two user roles: customer and admin. Customers can only browse albums (
 ## Team
 
 - Carlos Jimenez Zepeda
-- [Compañero]
+- Ana Maria Guzman Solis
 
 **Professor:** Alfredo Emmanuel Garcia Falcon  
 **Course:** Advanced Parallel Programming  
