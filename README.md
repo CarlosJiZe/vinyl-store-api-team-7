@@ -81,6 +81,13 @@ Authenticates a user using Basic Auth and returns an access token. This is the o
 ```bash
 curl -u carlos:1234 http://localhost:8080/login
 ```
+### Possible Errors
+
+If you are using POWERSHELL always use `.exe` after `curl` like this:
+
+```bash
+curl.exe -u carlos:1234 http://localhost:8080/login
+```
 
 Response:
 
@@ -230,10 +237,7 @@ curl -X POST http://localhost:8080/createAlbum -H "Authorization: Bearer <TOKEN>
 **Windows PowerShell:**
 
 ```powershell
-curl -X POST http://localhost:8080/createAlbum `
-  -H "Authorization: Bearer <TOKEN>" `
-  -H "Content-Type: application/json" `
-  -d '{"title": "Kind of Blue", "artist": "Miles Davis", "price": 45.99}'
+curl.exe-X POST http://localhost:8080/createAlbum -H "Authorization: Bearer <TOKEN>" -H "Content-Type: application/json" -d '{\"title\": \"Kind of Blue\", \"artist\": \"Miles Davis\"}'
 ```
 
 Response:
